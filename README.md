@@ -50,11 +50,13 @@ symphonysynth/
 ## ⚡ Quick Start
 
 ### 1. Prerequisites & Installation
-Clone this repository and set up your local development environment:
-```bash```
-git clone [https://github.com/HarsheetT/SymphonySynth.git](https://github.com/HarsheetT/SymphonySynth.git)
-cd SymphonySynth
-pip install -r requirements.txt
+* **Description:** Clone this repository and set up your local development environment.
+* **Command:**
+```bash
+  git clone [https://github.com/HarsheetT/SymphonySynth.git](https://github.com/HarsheetT/SymphonySynth.git)
+  cd SymphonySynth
+  pip install -r requirements.txt
+```
 
 ### 2. Tokenize Dataset
 To convert raw symbolic MIDI tracks into dense sequential token structures optimized for the hybrid network:
