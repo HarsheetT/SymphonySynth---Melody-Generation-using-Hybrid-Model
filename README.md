@@ -67,10 +67,10 @@ python src/tokenizer.py --input_dir data/raw_midi/ --output_dir data/tokenized/
 ### 3. Run Training & Fine-Tuning
 Execute the multi-stage training pipeline (Base Pre-training followed by targeted Domain Adaptation):
 ```bash
-##### Phase 1: Base Pre-training on the Western Dataset
+Phase 1: Base Pre-training on the Western Dataset
 python src/train.py --mode base --epochs 10
 
-##### Phase 2: Domain-Specific Fine-Tuning on the Indian Raga Dataset
+Phase 2: Domain-Specific Fine-Tuning on the Indian Raga Dataset
 python src/train.py --mode finetune --epochs 3
 ```
 
